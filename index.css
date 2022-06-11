@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Major+Mono+Display&family=Mukta:wght@200&family=Permanent+Marker&family=Spline+Sans+Mono:wght@400;600;700&display=swap');
+
+body{ 
+    background-color: #f8f8f8;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    margin-bottom: 75px;
+}
+
+#header-wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+#header-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav a{
+    margin-left: 35px;
+    color: rgb(26, 26, 29);
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: rgb(26, 26, 29);
+    opacity: 1;
+}
+
+#welcome-wrapper{
+    width: 70%;
+    margin: 0 auto;
+}
+
+#welcome-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#welcome img{
+    width: 480px;
+}
+
+#welcome-p{
+    width: 450px;
+    font-size: 18px;
+    color: #67646e;
+}
+
+#welcome h1{
+    font-size: 2.5rem;
+}
+
+#welcome img{
+    width: 410px;
+    border-radius: 20px;
+}
+
+#cases-wrapper{
+    width: 70%;
+    margin: 100px auto;
+}
+
+.card{
+    margin-top: 50px;
+    width: 220px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 5px 2px 18px 3px #111113;
+}
+
+#cards-row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card img{
+    width: 200px;
+    height: 100px;
+    margin-left: 10px;
+    border: 2px solid black;
+   
+}
+
+#cases-text{
+    text-align: center;
+    text-decoration: dashed;
+}
+
+ #cases-text h1{
+    text-decoration: none;
+    color: rgb(8, 9, 14);
+    font-size: 25px;
+}
+
+#cases-text hr{
+    margin-top: 50px;
+    width: 330px;
+    height: 2.5px;
+    background-color: rgb(0, 0, 0);
+}
+
+.cards-text p{
+    line-height: 1.5 ;
+}
+
+.btn-container{
+    text-align: center;
+} 
+
+
+    
+.default{
+    padding: 5px 10px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(66, 69, 255);  
+    margin: 50px auto; 
+}
+
+#More{
+ text-decoration: none;  
+ color: rgb(66, 69, 255);  
+ font-size: 30px; 
+}
+
